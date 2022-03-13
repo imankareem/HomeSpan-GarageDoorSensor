@@ -1,5 +1,5 @@
 # HomeSpan-GarageDoorSensor
-HomeSpan - HomeKit enabled ESP32 with Ball Tilt Switch to monitor Garage Door
+HomeSpan - HomeKit enabled ESP32 with a Ball Tilt Switch to monitor a Garage Door.
 
 This is my first Repo, please don't bully me for my spaghetti code. I am not responsible if you damage your components, your house/assets or if you hurt yourself. 
 
@@ -13,12 +13,13 @@ HomeSpan has great documentation. I suggest reading the FAQ and User Guides, esp
 
 **Here are the products I used for this project -** (Got these all off AliExpress minus the Iphone - _thanks Isaac for the freebie phone!_).
 1) ESP32 DEVKIT V1
-2) Ball Tilt Swtich - Used GND and GPIO 21 Pins (Pull Up)
+2) Ball Tilt Swtich - Used GND and GPIO 21 Pins (Pull Up Configuration - no external resisitors needed)
 3) Breadboard + Jumper Wires
 4) 2000mAh Power bank - https://www.officeworks.com.au/shop/officeworks/p/keji-2000mah-powerbank-black-copb02bk
 5) iPhone 11 - running 15.4 Beta/Release Candidate
+6) A Garage Door... 
 
-Do note that using the 5v+ battery bank via the ESP32's MicroUSB input will make the AMS1117 voltage regulator slightly warm due power losses in conversion. I did remove the onboard red power LED of the ESP32 using a snips/pliers, to save some power.
+Do note that using the 5v+ battery bank via the ESP32's MicroUSB input will make the AMS1117 voltage regulator slightly warm due power losses with voltage conversion. I did remove the onboard red power LED of the ESP32 using a snips/pliers, to save some power.
 
 Using a Battery bank is not best if you are after great battery life, due to coversion power loss. I don't mind recharging the power bank often as I have solar panels installed at home (free-ish electricity). In Version 2, I might reduce the CPU frequncey and reduce the WiFi transmission Power.
 
