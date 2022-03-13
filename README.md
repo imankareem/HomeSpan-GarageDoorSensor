@@ -19,6 +19,8 @@ HomeSpan has great documentation. I suggest reading the FAQ and User Guides, esp
 5) iPhone 11 - running 15.4 Beta/Release Candidate
 6) A Garage Door... 
 
+![image](https://user-images.githubusercontent.com/41558467/158045013-762aac46-1fd2-43a6-a42b-e51109b4b097.png)
+
 Do note that using the 5v+ battery bank via the ESP32's MicroUSB input will make the AMS1117 voltage regulator slightly warm due power losses with voltage conversion. I did remove the onboard red power LED of the ESP32 using a snips/pliers, to save some power.
 
 Using a Battery bank is not best if you are after great battery life, due to coversion power loss. I don't mind recharging the power bank often as I have solar panels installed at home (free-ish electricity). In Version 2, I might reduce the CPU frequncey and reduce the WiFi transmission Power.
